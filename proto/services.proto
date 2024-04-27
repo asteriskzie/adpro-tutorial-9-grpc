@@ -16,7 +16,7 @@ service ChatService {
 
 message PaymentRequest {
     string user_id = 1; 
-    double amound = 2; 
+    double amount = 2; 
 }
 
 message PaymentResponse {
