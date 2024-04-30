@@ -6,8 +6,8 @@ service PaymentService {
     rpc ProcessPayment(PaymentRequest) returns (PaymentResponse);
 }
 
-service TransactionsService {
-    rpc GetTransactionHisotory(TransactionRequest) returns (stream TransactionResponse); 
+service TransactionService {
+    rpc GetTransactionHistory(TransactionRequest) returns (stream TransactionResponse); 
 }
 
 service ChatService {
